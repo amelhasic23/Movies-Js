@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Movie list</title>
+</head>
+
+<body>
+
+  <div class="docTitle">Feel free to pick your favourite movie</div>
+  <div class="movie-container">
+
+    <table id="movieList">
+      
+      <thead class="t-head">
+        <tr>
+          <th class="item">Movie Title</th>
+          <th class="item">Movie Id</th>
+          <th class="item">Movie Rank</th>
+        </tr>
+      </thead>
+
+      <tbody class="tabBody">
+        <td class="data-item"></td>
+        <td class="data-item"></td>
+        <td class="data-item"></td>
+
+      </tbody>
+
+    </table>
+  </div>
+
+  <div class="search-box">
+    <input id="searchInput" type="text" placeholder="Search for Movies">
+    <button id="searchButton" class="btn bg-primary" onclick="searchMovie()">Search</button>
+    <p id="message"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
